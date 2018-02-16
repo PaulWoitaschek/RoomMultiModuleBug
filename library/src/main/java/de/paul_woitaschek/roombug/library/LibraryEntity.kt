@@ -8,7 +8,7 @@ import android.arch.persistence.room.PrimaryKey
 data class LibraryEntity(
         @PrimaryKey(autoGenerate = true)
         @ColumnInfo(name = "id")
-        val arg0: Long,
+        val id: Long,
         @ColumnInfo(name = "name")
-        val arg1: String
+        val name: String
 )
